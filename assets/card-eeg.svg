@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="224" viewBox="0 0 620 224" role="img" aria-label="EEG leakage study">
+  <style>
+    .sans { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
+    .mono { font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", Menlo, Consolas, monospace; }</style>
+  <rect width="620" height="224" rx="16" fill="#0B0E14"/>
+  <rect x="0.5" y="0.5" width="619" height="223" rx="16" fill="none" stroke="#232B36"/>
+  <rect x="0" y="28" width="4" height="56" rx="2" fill="#6CB6FF"/>
+  <text x="36" y="48" class="mono" font-size="12.5" fill="#6CB6FF" letter-spacing="1.2">ML RESEARCH · CO-AUTHORED</text>
+  <text x="35" y="88" class="sans" font-size="32" font-weight="800" fill="#F0F3F6" letter-spacing="-0.5">EEG leakage study</text>
+  <text x="36" y="122" class="sans" font-size="15.5" fill="#9DA7B3">Showed 499 of 500 recordings leak across the</text>
+  <text x="36" y="144" class="sans" font-size="15.5" fill="#9DA7B3">standard split. Unseen patients: F1 → 0.016.</text>
+  <rect x="36" y="168" width="79" height="28" rx="14" fill="#6CB6FF" fill-opacity="0.10" stroke="#6CB6FF" stroke-opacity="0.35"/><text x="75.5" y="187" text-anchor="middle" class="mono" font-size="13" fill="#6CB6FF">PyTorch</text>
+  <rect x="125" y="168" width="79" height="28" rx="14" fill="#6CB6FF" fill-opacity="0.10" stroke="#6CB6FF" stroke-opacity="0.35"/><text x="164.5" y="187" text-anchor="middle" class="mono" font-size="13" fill="#6CB6FF">XGBoost</text>
+  <rect x="214" y="168" width="150" height="28" rx="14" fill="#6CB6FF" fill-opacity="0.10" stroke="#6CB6FF" stroke-opacity="0.35"/><text x="289" y="187" text-anchor="middle" class="mono" font-size="13" fill="#6CB6FF">EEG + ECG fusion</text>
+  
+  <style>
+    .e-trace { animation: e-scroll 5s linear infinite; }
+    @keyframes e-scroll { from { transform: translateX(0); } to { transform: translateX(-300px); } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; }  }
+  </style>
+  <defs><clipPath id="e-clip"><rect x="452" y="70" width="140" height="76" rx="8"/></clipPath></defs>
+  <g clip-path="url(#e-clip)">
+    <rect x="452" y="70" width="140" height="76" fill="#0F141C"/>
+    <g transform="translate(452 70)"><g class="e-trace">
+      <rect x="148" y="0" width="76" height="76" fill="#6CB6FF" fill-opacity="0.09"/>
+      <rect x="448" y="0" width="76" height="76" fill="#6CB6FF" fill-opacity="0.09"/>
+      <path d="M0.0 34.6 L3.0 32.9 L6.0 35.6 L9.0 35.9 L12.0 34.7 L15.0 36.6 L18.0 37.0 L21.0 33.2 L24.0 31.8 L27.0 33.8 L30.0 33.6 L33.0 34.2 L36.0 39.5 L39.0 43.0 L42.0 42.4 L45.0 43.2 L48.0 44.4 L51.0 41.1 L54.0 38.4 L57.0 40.3 L60.0 40.9 L63.0 39.4 L66.0 41.2 L69.0 42.7 L72.0 39.0 L75.0 35.5 L78.0 35.0 L81.0 32.3 L84.0 29.3 L87.0 31.7 L90.0 35.1 L93.0 35.0 L96.0 36.6 L99.0 39.6 L102.0 38.3 L105.0 35.7 L108.0 37.4 L111.0 38.9 L114.0 38.3 L117.0 41.2 L120.0 45.7 L123.0 45.3 L126.0 43.4 L129.0 43.8 L132.0 41.3 L135.0 36.2 L138.0 35.4 L141.0 36.9 L144.0 35.4 L147.0 35.4 L150.0 38.1 L153.0 38.0 L156.0 34.4 L159.0 30.0 L162.0 29.1 L165.0 35.9 L168.0 41.2 L171.0 32.3 L174.0 25.0 L177.0 42.4 L180.0 61.6 L183.0 46.5 L186.0 21.7 L189.0 32.3 L192.0 57.1 L195.0 50.3 L198.0 28.8 L201.0 32.8 L204.0 49.2 L207.0 48.0 L210.0 37.5 L213.0 34.3 L216.0 33.3 L219.0 31.2 L222.0 32.5 L225.0 33.4 L228.0 32.9 L231.0 36.1 L234.0 38.7 L237.0 36.4 L240.0 35.2 L243.0 37.0 L246.0 36.4 L249.0 35.7 L252.0 40.0 L255.0 43.9 L258.0 43.6 L261.0 44.5 L264.0 46.0 L267.0 42.6 L270.0 38.3 L273.0 38.4 L276.0 37.9 L279.0 35.5 L282.0 36.9 L285.0 39.5 L288.0 37.4 L291.0 34.8 L294.0 35.1 L297.0 33.0 L300.0 29.6 L300.0 34.6 L303.0 32.9 L306.0 35.6 L309.0 35.9 L312.0 34.7 L315.0 36.6 L318.0 37.0 L321.0 33.2 L324.0 31.8 L327.0 33.8 L330.0 33.6 L333.0 34.2 L336.0 39.5 L339.0 43.0 L342.0 42.4 L345.0 43.2 L348.0 44.4 L351.0 41.1 L354.0 38.4 L357.0 40.3 L360.0 40.9 L363.0 39.4 L366.0 41.2 L369.0 42.7 L372.0 39.0 L375.0 35.5 L378.0 35.0 L381.0 32.3 L384.0 29.3 L387.0 31.7 L390.0 35.1 L393.0 35.0 L396.0 36.6 L399.0 39.6 L402.0 38.3 L405.0 35.7 L408.0 37.4 L411.0 38.9 L414.0 38.3 L417.0 41.2 L420.0 45.7 L423.0 45.3 L426.0 43.4 L429.0 43.8 L432.0 41.3 L435.0 36.2 L438.0 35.4 L441.0 36.9 L444.0 35.4 L447.0 35.4 L450.0 38.1 L453.0 38.0 L456.0 34.4 L459.0 30.0 L462.0 29.1 L465.0 35.9 L468.0 41.2 L471.0 32.3 L474.0 25.0 L477.0 42.4 L480.0 61.6 L483.0 46.5 L486.0 21.7 L489.0 32.3 L492.0 57.1 L495.0 50.3 L498.0 28.8 L501.0 32.8 L504.0 49.2 L507.0 48.0 L510.0 37.5 L513.0 34.3 L516.0 33.3 L519.0 31.2 L522.0 32.5 L525.0 33.4 L528.0 32.9 L531.0 36.1 L534.0 38.7 L537.0 36.4 L540.0 35.2 L543.0 37.0 L546.0 36.4 L549.0 35.7 L552.0 40.0 L555.0 43.9 L558.0 43.6 L561.0 44.5 L564.0 46.0 L567.0 42.6 L570.0 38.3 L573.0 38.4 L576.0 37.9 L579.0 35.5 L582.0 36.9 L585.0 39.5 L588.0 37.4 L591.0 34.8 L594.0 35.1 L597.0 33.0 L600.0 29.6" fill="none" stroke="#6CB6FF" stroke-width="1.8" stroke-linejoin="round"/>
+    </g></g>
+  </g>
+  <rect x="452.5" y="70.5" width="139" height="75" rx="8" fill="none" stroke="#232B36"/>
+</svg>
