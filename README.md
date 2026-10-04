@@ -11,8 +11,6 @@
 
 CS undergrad who likes problems where "mostly works" isn't good enough: netcode where two machines must compute the exact same frame, tooling that blocks a tampered AI tool before the agent ever sees it, and ML results that still hold up when you test on a patient the model has never seen.
 
-Previously: SDE intern at **Tata Communications** (ThreadSpan) and **Good Health Company**, and undergraduate researcher in ML & signal processing.
-
 ### Featured
 
 <a href="https://stickken.pages.dev"><img src="assets/card-stickken.svg" width="49%" alt="STICKKEN"></a> <a href="https://github.com/confuseddude/mcpseal"><img src="assets/card-mcpseal.svg" width="49%" alt="mcpseal"></a>
